@@ -6,7 +6,9 @@ by integrating deep neural networks with Q-learning. This report explores how di
 We experiment with four different hyperparameter settings:
 
 **1. Batch = 8, Target Update = 10**
+
 **2. Batch = 16, Target Update = 10**
+
 **3. Batch = 8, Target Update = 3**
 
 The goal is to determine which setting provides the best balance between **learning
