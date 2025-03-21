@@ -77,6 +77,7 @@ We compare **all four configurations** in one plot:
 # 4. Best Hyperparameter Choice
 
 After analyzing the results, the best configuration depends on the desired outcome:
+
 •	**For stability**: Batch = 16, Target Update = 10 (consistent learning, low variance).
 
 •	**For fast learning**: Batch = 8, Target Update = 3 (highest average reward, but more variance).
@@ -89,6 +90,7 @@ If we prioritize faster learning and higher rewards, *Batch = 8, Target Update =
 
 This study highlights the **trade-offs** between batch size and target network update
 frequency in DQN training:
+
 • **Larger batch sizes** lead to **smoother learning** but can slow convergence.
 
 • **Frequent target network updates** (update = 3) improve adaptation but **increase
