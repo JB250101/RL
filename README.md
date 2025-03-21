@@ -3,7 +3,7 @@
 Deep Q-Networks (DQN) have become a fundamental approach to reinforcement learning
 by integrating deep neural networks with Q-learning. This report explores how different
 **batch sizes** and **target update** rates impact the training performance of a DQN agent.
-We experiment with four different hyperparameter settings:
+We experiment with three different hyperparameter settings:
 
 **1. Batch = 8, Target Update = 10**
 
