@@ -39,7 +39,7 @@ DQN Model Summary:
 
 **• Loss Function**: Mean Squared Error (MSE).
 
-**# 3. Training Metrics and Observations**
+# 3. Training Metrics and Observations
 
 We trained the DQN agent with different **batch sizes** and **target update** frequencies to
 analyze how these parameters affect learning.
